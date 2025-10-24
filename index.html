@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christos</title>
+    <link rel="icon" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='black'%3e%3cpath d='M75 100 L20 100 L20 0 L75 0 L75 15 L35 15 L35 85 L75 85 L75 100 Z' /%3e%3c/svg%3e">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+      body {
+        font-family: 'Syne', sans-serif;
+        background-color: #FFFFFF;
+      }
+      ::selection {
+        background-color: #FFFF00; /* Brutalist yellow */
+        color: #000000;
+      }
+      /* Syntax highlighting theme customization */
+      .hljs {
+        background: #000000 !important;
+        color: #e0e0e0 !important;
+      }
+      .hljs-tag, .hljs-name {
+        color: #ff79c6 !important;
+      }
+      .hljs-attr {
+        color: #50fa7b !important;
+      }
+      .hljs-string {
+        color: #f1fa8c !important;
+      }
+      .hljs-keyword, .hljs-selector-tag {
+        color: #bd93f9 !important;
+      }
+      .hljs-attribute {
+        color: #8be9fd !important;
+      }
+      .hljs-number, .hljs-literal {
+        color: #bd93f9 !important;
+      }
+      .hljs-comment {
+        color: #6272a4 !important;
+      }
+
+      /* Color Swatch Feature */
+      .color-hex-wrapper {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid #e5e7eb;
+        transition: all 0.2s ease-in-out;
+        vertical-align: middle;
+      }
+      .color-hex-wrapper:hover {
+        background-color: var(--hex-color);
+        border-color: transparent;
+      }
+      .color-hex-wrapper:hover .color-hex-code {
+        color: var(--hex-contrast-color);
+      }
+      .color-hex-swatch {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,0.1);
+        flex-shrink: 0;
+      }
+      .color-hex-code {
+        background-color: transparent !important;
+        padding: 0 !important;
+        font-weight: 700;
+      }
+
+      .kg1 {
+        /* Custom class for branding, not used in this specific design but reserved */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
