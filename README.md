@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img src="https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png" alt="Christos UI Screenshot"/>
+  <img src="[https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png](https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png)" alt="Christos UI Screenshot"/>
 </p>
 
 ## ✨ Key Features
@@ -55,7 +55,7 @@ To run Christos on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/christos.git
+    git clone https://github.com/arxivius/christos.git
     cd christos
     ```
 
