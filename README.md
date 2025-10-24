@@ -1,4 +1,4 @@
-# Christos -\ AI Web Builder
+# Christos - AI Web Builder
 
 <p align="center">
   <img src="https://socialify.git.ci/arXiVius/christos-ai/image?custom_description=Christos%3A+AI+web+builder.+Instant%2C+complete%2C+bold%2C+brutalist+sites+from+a+single+prompt.&description=1&font=JetBrains+Mono&language=1&logo=data%3Aimage%2Fsvg%2Bxml%2C%253csvg+xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27+viewBox%3D%270+0+100+100%27+fill%3D%27black%27%253e%253cpath+d%3D%27M75+100+L20+100+L20+0+L75+0+L75+15+L35+15+L35+85+L75+85+L75+100+Z%27+%2F%253e%253c%2Fsvg%253e&name=1&owner=1&pattern=Signal&theme=Light" alt="Christos Logo" width="800">
@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img src="[https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png](https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png)" alt="Christos UI Screenshot"/>
+  <img src="https://i.ibb.co.com/p6KNrG4F/christos-ai-vercel-app.png" alt="Christos UI Screenshot"/>
 </p>
 
 ## ✨ Key Features
